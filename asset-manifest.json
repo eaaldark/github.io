@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.044e494e.css",
-    "main.js": "/static/js/main.deb3768e.js",
+    "main.css": "/static/css/main.40e5079e.css",
+    "main.js": "/static/js/main.baeffabd.js",
     "static/js/787.92e4d466.chunk.js": "/static/js/787.92e4d466.chunk.js",
     "static/media/sanFranciscoDesktop.jpg": "/static/media/sanFranciscoDesktop.1b3f62dd8ec2ff1e6473.jpg",
-    "static/media/michiPsicologo.jpg": "/static/media/michiPsicologo.8dba94961cf8b683519d.jpg",
+    "static/media/michiPsicologo.jpg": "/static/media/michiPsicologo.1a7d17d299639e516250.jpg",
     "index.html": "/index.html",
-    "main.044e494e.css.map": "/static/css/main.044e494e.css.map",
-    "main.deb3768e.js.map": "/static/js/main.deb3768e.js.map",
+    "main.40e5079e.css.map": "/static/css/main.40e5079e.css.map",
+    "main.baeffabd.js.map": "/static/js/main.baeffabd.js.map",
     "787.92e4d466.chunk.js.map": "/static/js/787.92e4d466.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.044e494e.css",
-    "static/js/main.deb3768e.js"
+    "static/css/main.40e5079e.css",
+    "static/js/main.baeffabd.js"
   ]
 }
