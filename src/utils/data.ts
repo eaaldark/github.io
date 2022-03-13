@@ -1,4 +1,6 @@
 import { faGraduationCap, faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import uno from "../img/brave_X2ZOw4OK5E.png";
+import dos from "../img/Code_BbIvz8lJIg.png";
 
 export const sumaryData = {
   projects: [
@@ -8,7 +10,7 @@ export const sumaryData = {
       description:
         "Este es mi primer proyecto simple de frontend usando Create React App + Typescript + Tailwind",
       link: "eaaldark.github.io",
-      img: "https://raw.githubusercontent.com/eaaldark/eaaldark.github.io/main/img/img/brave_hhaQ4EUb3W.png",
+      img: uno,
     },
     {
       id: 1,
@@ -16,7 +18,7 @@ export const sumaryData = {
       description:
         "Estos son proyectos hechos al azar para experimentar cosas no tiene nada organizado.",
       link: ["experimental-test-Backend", "experimental-test-frontend"],
-      img: "https://raw.githubusercontent.com/eaaldark/eaaldark.github.io/main/img/img/vZdjLZOL7p.jpg",
+      img: dos,
     },
   ],
   experience: [
@@ -53,7 +55,12 @@ export const sumaryData = {
     { id: 4, percentaje: "30", color: "2 132 199", skillName: "Typescript" },
     { id: 5, percentaje: "30", color: "120 113 108", skillName: "Linux" },
     { id: 6, percentaje: "30", color: "161 161 170", skillName: "Terminal" },
-    { id: 7, percentaje: "30", color: "245 158 11", skillName: "Micro-servicios" },
+    {
+      id: 7,
+      percentaje: "30",
+      color: "245 158 11",
+      skillName: "Micro-servicios",
+    },
     { id: 8, percentaje: "20", color: "34 197 94", skillName: "SQL" },
     { id: 9, percentaje: "30", color: "101 163 13", skillName: "NodeJS" },
     { id: 10, percentaje: "30", color: "0 0 0", skillName: "Express" },
