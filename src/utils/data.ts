@@ -65,7 +65,7 @@ export const sumaryData = {
     { id: 9, percentaje: "30", color: "101 163 13", skillName: "NodeJS" },
     { id: 10, percentaje: "30", color: "0 0 0", skillName: "Express" },
     { id: 11, percentaje: "10", color: "200 54 238", skillName: "JWT" },
-    { id: 12, percentaje: "10", color: "8 145 178", skillName: "Docker" },
+    { id: 12, percentaje: "17", color: "8 145 178", skillName: "Docker" },
     { id: 13, percentaje: "35", color: "253 224 71", skillName: "Serverless Framework" },
     { id: 14, percentaje: "30", color: "34 211 238", skillName: "Create React App" },
     { id: 15, percentaje: "15", color: "244 63 94", skillName: "Angular Material" },
