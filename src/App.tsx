@@ -1,26 +1,14 @@
-import React from "react";
-// import logo from './logo.svg';
-import "./App.css";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import Sumary from "./components/Sumary";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
+import React from 'react';
+import RouterDom from './router';
 
-function App({ data }: any) {
+function App(props:any) {
   return (
-    <React.Fragment>
-      <Header />
-      <Navbar />
-      <AboutMe />
-      <Sumary data={data} title={"Resumen"} />
-      <Skills data={data} title={"Habilidades"} />
-      <Projects data={data} title={"Proyectos"} />
-      <Footer />
-    </React.Fragment>
+    <div className="w-full h-screen global-background flex flex-col">
+      <RouterDom />
+    </div>
   );
 }
 
 export default App;
+
+//https://play.tailwindcss.com/Lre4lqafF0
