@@ -3,7 +3,7 @@ import RouterDom from './router';
 
 function App(props:any) {
   return (
-    <div className="w-full h-screen global-background flex flex-col">
+    <div className="w-full min-h-screen global-background flex flex-col">
       <RouterDom />
     </div>
   );
