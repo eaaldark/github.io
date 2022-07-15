@@ -7,6 +7,7 @@ const navigator: any[] = [
   { link: "/about", text: "Acerca de", id: 1 },
   { link: "/sumary", text: "Resumen", id: 2 },
   { link: "/skill", text: "Habilidades", id: 3 },
+  { link: "/project", text: "Proyectos", id: 5 },
   { link: "/contact", text: "Contacto", id: 4 },
 ];
 
@@ -19,8 +20,8 @@ const NavbarDom = (props: any) => {
   return (
     <nav className="h-14">
       <div
-        className={`h-fit flex flex-col text-white sm:hidden w-full ${
-          isClicked ? "" : "bg-gray-800"
+        className={`text-center flex flex-col text-white sm:hidden w-full ${
+          isClicked ? "bg-gray-800" : "bg-gray-700"
         } fixed`}>
         {isClicked ? (
           <>
@@ -53,12 +54,13 @@ const NavbarDom = (props: any) => {
           );
         })}
       </div>
+
       <div className="flex-row text-white gap-2 hidden sm:flex">
         <div className="flex-1"></div>
         {navigator.map((item: any) => {
           return (
             <Link
-              className="p-2 m-2 hover:border-b"
+              className="p-2 m-2 hover:border-b hover:border-white/30"
               to={item.link}
               key={item.id}>
               {item.text}
