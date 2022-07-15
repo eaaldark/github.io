@@ -5,6 +5,7 @@ const AboutDomComponent = lazy(() => import("../pages/About"));
 const ContactDomComponent = lazy(()=> import("../pages/Contact"))
 const SkillDomComponent = lazy(()=> import("../pages/Skill"))
 const SumaryDomComponent = lazy(() => import("../pages/Sumary"));
+const ProjectDomComponent = lazy(() => import("../pages/Project"));
 
 
 export const Home = () => {
@@ -43,6 +44,15 @@ export const Sumary = () => {
   return (
     <Suspense fallback={<div className="text-red-700">Cargando Experiencia...</div>}>
       <SumaryDomComponent />
+    </Suspense>
+  );
+};
+
+export const Project = () => {
+  return (
+    <Suspense
+      fallback={<div className="text-red-700">Cargando Proyectos...</div>}>
+      <ProjectDomComponent />
     </Suspense>
   );
 };
