@@ -4,14 +4,13 @@
   * {
     @apply box-content;
   }
-  
 }
 
 @tailwind components;
 
 @layer components {
   .global-background {
-    @apply bg-black 
+    @apply bg-gray-900 
     s:bg-gradient-to-r 
     s:from-gray-900 
     s:to-slate-900 
@@ -19,6 +18,21 @@
     md:to-zinc-900
     lg:from-neutral-900 
     lg:to-stone-900;
+  }
+
+  .grid-experience {
+    @apply 
+    grid-cols-1
+    xl:grid-cols-3
+  }
+
+  .grid-skill{
+    @apply
+    grid-cols-1
+    xs:grid-cols-2
+    sm:grid-cols-3
+    xl:grid-cols-5
+
   }
 }
 
@@ -29,15 +43,15 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif;
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  monospace;
+    monospace;
 }
 
 /*.h-screen {
