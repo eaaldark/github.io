@@ -1,4 +1,5 @@
 import React from "react";
+import { aboutData } from "../data";
 
 const AboutDom = (props: any) => {
   return (
@@ -8,9 +9,7 @@ const AboutDom = (props: any) => {
         <div className="text-white w-10/12 md:w-6/12 flex flex-col gap-y-5">
           <h1 className="text-2xl">Un poco sobre mi</h1>
           <p>
-            Hola, soy Analista y Desarrollador de Sistemas, actualmente soy
-            Desarrollador Fullstack JR y tengo experiencia en Micro-Servicios
-            (Serverless), NodeJS, Typescript, Angular, ReactJS, Docker, algunos servicios de AWS, Linux y SQL, sigo aprendiendo y descubriendo cosas nuevas cada dia.
+            {aboutData}
           </p>
         </div>
       </div>
