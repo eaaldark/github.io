@@ -6,12 +6,12 @@ const RouterDom = (props: any) => {
   console.log("Usando Router");
   return (
     <BrowserRouter>
-      <NavbarDom/>
+      <NavbarDom />
       <Routes>
         {(Paths || []).map((item: any, idx: any) => (
           <Route key={item.id} path={item.path} element={<item.component />} />
-          ))}
-          </Routes>
+        ))}
+      </Routes>
     </BrowserRouter>
   );
 };
