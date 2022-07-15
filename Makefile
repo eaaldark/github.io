@@ -13,7 +13,4 @@ build:
 	${DOCKER_COMPOSE} npm run build
 
 sbuild:
-	${DOCKER_COMPOSE} serve -s build -l 5000
-
-gh:
-	${DOCKER_COMPOSE} gh-pages -d build
+	${DOCKER_COMPOSE} npx serve -s build -l 3100
