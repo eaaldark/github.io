@@ -17,6 +17,10 @@ module.exports = {
       "6xl": "2560px",
       "7xl": "3840px",
     },
+    fontFamily: {
+      sans: ["Graphik", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+    },
     extend: {
       backgroundImage: {
         michiPsicologo: "url('./img/michiPsicologo.jpg')",
