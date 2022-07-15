@@ -1,4 +1,4 @@
-import { Home, About, Contact, Skill, Sumary } from "./LazyComponents";
+import { Home, About, Contact, Skill, Sumary,Project } from "./LazyComponents";
 
 const routes = [
   {
@@ -24,6 +24,12 @@ const routes = [
     name: "skill",
     path: "/skill",
     component: Skill,
+  },
+  {
+    id: 6,
+    name: "project",
+    path: "/project",
+    component: Project,
   },
   {
     id: 5,
