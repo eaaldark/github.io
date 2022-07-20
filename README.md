@@ -6,15 +6,10 @@ Este proyecto esta creado con [Create React App](https://github.com/facebook/cre
 
 Comandos:
 
-* Construir una imagen
+* Construir imagen y contenedor por primera vez
   ```sh
-  docker build -t eaaldark -f Dockerfile .
+  docker-compose up --build -d
   ```
-* Construir contenedor
-  ```sh
-  docker-compose up -d
-  ```
-
 
 ## Scripts Disponibles
 
