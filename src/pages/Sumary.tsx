@@ -1,4 +1,3 @@
-import React from "react";
 import { sumaryData } from "../data/index";
 const SumaryDom = (props: any) => {
   return (
