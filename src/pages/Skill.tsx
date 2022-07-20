@@ -1,4 +1,3 @@
-import React from "react";
 import { skillData } from "../data";
 
 const SkillDom = (props: any) => {
