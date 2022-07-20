@@ -1,16 +1,16 @@
 DOCKER_COMPOSE = docker-compose exec eaaldark
 
 sh:
-	${DOCKER_COMPOSE} -it sh
+	${DOCKER_COMPOSE} /bin/sh
 
-install:
+run-install:
 	${DOCKER_COMPOSE} npm install
 
-start:
+run-start:
 	${DOCKER_COMPOSE} npm run start
 
-build:
+run-build:
 	${DOCKER_COMPOSE} npm run build
 
-sbuild:
+run-sbuild:
 	${DOCKER_COMPOSE} npx serve -s build -l 3100
