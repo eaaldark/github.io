@@ -1,0 +1,7 @@
+docker-compose.yml
+.dockerignore
+Dockerfile
+.gitignore
+Makefile
+.nvmrc
+.vscode
