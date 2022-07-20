@@ -1,5 +1,3 @@
-import React from "react";
-
 const HomeDom = (props: any) => {
   return (
     <div className="my-auto w-full flex flex-col justify-center">
