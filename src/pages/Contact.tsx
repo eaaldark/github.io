@@ -1,44 +1,51 @@
 import icons from "../icons/icons";
 import { openInNewTab } from "../utils/openLink";
+
+const buttons: any[] = [
+  {
+    icon: icons.Instagram,
+    link: "https://www.instagram.com/eaaldark",
+    alt: "Instagram",
+  },
+  {
+    icon: icons.Github,
+    link: "https://github.com/eaaldark",
+    alt: "Github",
+  },
+  {
+    icon: icons.Gmail,
+    link: "mailto:eaangrino@misena.edu.co?subject=Tengo%20interes%20en%20usted!&body=Hola%20Edgar%20Angrino",
+    alt: "Gmail",
+  },
+  {
+    icon: icons.Telegram,
+    link: "https://t.me/eaaldark",
+    alt: "Telegram",
+  },
+];
+
 const SumaryDom = (props: any) => {
-  const { Instagram, Github, Gmail, Telegram } = icons;
   return (
     <div className="w-full h-full my-auto flex flex-col space-y-4 text-white">
-      <h1 className="text-center font-bold text-2xl">Contacto</h1>
-      <div className="flex flex-row items-center justify-center gap-10">
-        <div className="text-center">
-          <button
-            onClick={() => {
-              openInNewTab("https://www.instagram.com/eaaldark");
-            }}>
-            <img src={Instagram} className="w-32" alt="Instagram" />
-          </button>
-        </div>
-        <div className="text-center">
-          <button
-            onClick={() => {
-              openInNewTab("https://github.com/eaaldark");
-            }}>
-            <img src={Github} className="w-32" alt="Github" />
-          </button>
-        </div>
-        <div className="text-center">
-          <button
-            onClick={() => {
-              openInNewTab(
-                "mailto:eaangrino@misena.edu.co?subject=Tengo%20interes%20en%20usted!&body=Hola%20Edgar%20Angrino"
-              );
-            }}>
-            <img src={Gmail} className="w-32" alt="Gmail" />
-          </button>
-        </div>
-        <div className="text-center">
-          <button
-            onClick={() => {
-              openInNewTab("https://t.me/eaaldark");
-            }}>
-            <img src={Telegram} className="w-32" alt="Telegram" />
-          </button>
+      <div className="p-5 space-y-5">
+        <h1 className="text-center font-bold text-2xl">Contacto</h1>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+          {buttons.map((item: any) => {
+            return (
+              <div className="text-center">
+                <button
+                  onClick={() => {
+                    openInNewTab(item.link);
+                  }}>
+                  <img
+                    src={item.icon}
+                    className="w-32 hover:border hover:border-black/30 rounded-lg hover:bg-gray-500"
+                    alt={item.alt}
+                  />
+                </button>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
