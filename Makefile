@@ -14,3 +14,6 @@ run-build:
 
 run-sbuild:
 	${DOCKER_COMPOSE} npx serve -s build -l 3100
+
+run-deploy:
+	npx gh-pages -d build
