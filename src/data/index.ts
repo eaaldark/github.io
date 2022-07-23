@@ -59,3 +59,26 @@ export const skillData = [
     skillName: "Angular",
   },
 ];
+
+export const projects = [
+  {
+    image: "",
+    title: "Github Pages",
+    paragraph: `Este es el projecto principal que
+                utilizo para pequeñas pruebas de
+                interfaz en ReactJS con Typescript`,
+    link: "https://github.com/eaaldark/eaaldark.github.io/tree/code-v1",
+  },
+  // {
+  //   image: "",
+  //   title: "What is Lorem Ipsum?",
+  //   paragraph: `Lorem Ipsum is simply dummy text of the printing and
+  //               typesetting industry. Lorem Ipsum has been the industry's
+  //               standard dummy text ever since the 1500s, when an unknown
+  //               printer took a galley of type and scrambled it to make a
+  //               type specimen book. It has survived not only five centuries,
+  //               but also the leap into electronic typesetting, remaining
+  //               essentially unchanged.`,
+  //   link: "https://github.com/eaaldark",
+  // },
+];
