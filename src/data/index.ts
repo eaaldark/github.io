@@ -63,10 +63,9 @@ export const skillData = [
 export const projects = [
   {
     image: "",
-    title: "Github Pages",
-    paragraph: `Este es el projecto principal que
-                utilizo para pequeñas pruebas de
-                interfaz en ReactJS con Typescript`,
+    title: "Curriculum Vitae eaaldark",
+    paragraph: `Este es el projecto inicial que
+                estare actualizando como presentacion`,
     link: "https://github.com/eaaldark/eaaldark.github.io/tree/code-v1",
   },
   // {
