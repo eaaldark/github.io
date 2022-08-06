@@ -1,7 +1,7 @@
 import { sumaryData } from "../data/index";
 const SumaryDom = (props: any) => {
   return (
-    <div className="center my-auto flex w-full flex-col items-center justify-center text-white">
+    <div className="my-auto flex w-full flex-col items-center justify-center text-white">
       <div className="grid grid-experience gap-6 p-5 xl:px-16">
         {sumaryData.reverse().map((item: any) => {
           return (
