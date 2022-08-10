@@ -33,13 +33,12 @@
   }
 
   .grid-project {
-    @apply
-    grid-cols-1
+    @apply grid-cols-1
     xs:grid-cols-2
     lg:grid-cols-3
     2xl:grid-cols-4
     5xl:grid-cols-5
-    6xl:grid-cols-6
+    6xl:grid-cols-6;
   }
 }
 
@@ -67,3 +66,10 @@ code {
   height: calc(var(--vh, 1vh) * 100);
 }
 */
+
+/* @font-face {
+  font-family: "Fira Code";
+  src: local("Fira Code"),
+    url("./fonts/FiraCode/FiraCode-Regular.ttf") format("truetype");
+  font-weight: regular;
+} */

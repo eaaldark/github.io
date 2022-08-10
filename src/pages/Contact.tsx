@@ -1,3 +1,4 @@
+// import Tooltip from "../components/Tooltip";
 import icons from "../icons/icons";
 import { openInNewTab } from "../utils/openLink";
 
@@ -46,6 +47,7 @@ const SumaryDom = (props: any) => {
               </div>
             );
           })}
+          {/* <Tooltip tooltipMessage="Resend Email">Hover over me!</Tooltip> */}
         </div>
       </div>
     </div>
