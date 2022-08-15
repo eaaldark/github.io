@@ -18,11 +18,6 @@ const buttons: any[] = [
     link: "mailto:eaangrino@misena.edu.co?subject=Tengo%20interes%20en%20usted!&body=Hola%20Edgar%20Angrino",
     alt: "Gmail",
   },
-  {
-    icon: icons.Telegram,
-    link: "https://t.me/eaaldark",
-    alt: "Telegram",
-  },
 ];
 
 const SumaryDom = (props: any) => {
