@@ -6,7 +6,7 @@ Este proyecto esta creado con [Create React App](https://github.com/facebook/cre
 
 Comandos:
 
-* Construir imagen y contenedor por primera vez
+- Construir imagen y contenedor por primera vez
   ```sh
   docker-compose up --build -d
   ```
@@ -15,29 +15,34 @@ Comandos:
 
 En este proyecto atravez de la consola puede ejecutar:
 
-* Instalara los paquetes que dependen de este proyecto:
+- Instalara los paquetes que dependen de este proyecto:
+
   ```sh
   make install
   ```
 
-* Ejecuta el proyecto dentro del contenedor y el contenedor expone el puerto a utilizar:
+- Ejecuta el proyecto dentro del contenedor y el contenedor expone el puerto a utilizar:
+
   ```sh
   make start
   ```
 
-* Para poder compilar el proyecto:
+- Para poder compilar el proyecto:
+
   ```sh
   make build
   ```
 
-* Debe haber usado el comando make build para ejecutar este, es para probar el codigo compilado antes de ser subido a un repositorio:
+- Debe haber usado el comando make build para ejecutar este, es para probar el codigo compilado antes de ser subido a un repositorio:
+
   ```sh
   make sbuild
   ```
 
-* Subira el codigo compilado a gh-pages donde este configurado:
+- Subira el codigo compilado a gh-pages donde este configurado:
+
   ```sh
   make gh
   ```
 
-* Podra acceder al contenedor desde la consola interna usando 
+- Podra acceder al contenedor desde la consola interna usando

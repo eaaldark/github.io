@@ -17,3 +17,6 @@ run-sbuild:
 
 run-deploy:
 	npx gh-pages -d build
+
+prettier:
+	${DOCKER_COMPOSE} npx prettier --write .
