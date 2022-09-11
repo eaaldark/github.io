@@ -3,26 +3,21 @@ import icons from '../icons/icons';
 import { openInNewTab } from '../utils/openLink';
 
 const buttons: any[] = [
-	{
-		icon: icons.Instagram,
-		link: 'https://www.instagram.com/eaaldark',
-		alt: 'Instagram',
-	},
-	{
-		icon: icons.Github,
-		link: 'https://github.com/eaaldark',
-		alt: 'Github',
-	},
-	{
-		icon: icons.Gmail,
-		link: 'mailto:eaangrino@misena.edu.co?subject=Tengo%20interes%20en%20usted!&body=Hola%20Edgar%20Angrino',
-		alt: 'Gmail',
-	},
-	// {
-	// 	icon: icons.Telegram,
-	// 	link: 'https://t.me/eaaldark',
-	// 	alt: 'Telegram',
-	// },
+  {
+    icon: icons.Instagram,
+    link: "https://www.instagram.com/eaaldark",
+    alt: "Instagram",
+  },
+  {
+    icon: icons.Github,
+    link: "https://github.com/eaaldark",
+    alt: "Github",
+  },
+  {
+    icon: icons.Gmail,
+    link: "mailto:eaangrino@misena.edu.co?subject=Tengo%20interes%20en%20usted!&body=Hola%20Edgar%20Angrino",
+    alt: "Gmail",
+  },
 ];
 
 const SumaryDom = (props: any) => {
