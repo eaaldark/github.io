@@ -1,15 +1,11 @@
 {
-	"trailingComma": "all",
-	"tabWidth": 2,
-	"semi": false,
-	"arrowParens": "always",
-	"singleQuote": true,
-	"useTabs": false,
-	"bracketSpacing": true,
-	"bracketSameLine": true,
-	"requirePragma": true,
-	"parser": "typescript",
-	"singleAttributePerLine": true,
-	"htmlWhitespaceSensitivity": "strict",
-	"jsxSingleQuote": true
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": false,
+  "arrowParens": "always",
+  "useTabs": false,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "singleAttributePerLine": true,
+  "jsxSingleQuote": true
 }
