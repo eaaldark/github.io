@@ -7,18 +7,19 @@
 
   .flex-skill-item {
     @apply w-full 
+    bg-white
     h-full 
     flex 
     flex-row 
     xs:flex-col 
-    gap-6 
-    xs:gap-0 
+    gap-6
+    xs:gap-3 
     items-center 
     text-center 
     place-self-center;
   }
   .grid-skill {
-    @apply gap-6 
+    @apply gap-3 
     xs:gap-16
     grid-cols-1
     xs:grid-cols-3
@@ -35,14 +36,17 @@
 
 @layer components {
   .global-background {
-    @apply bg-gray-900 
-    s:bg-gradient-to-r 
-    s:from-gray-900 
-    s:to-slate-900 
-    md:from-slate-900 
-    md:to-zinc-900
-    lg:from-neutral-900 
-    lg:to-stone-900;
+    @apply bg-slate-700
+    s:bg-gray-700 
+    xs:bg-zinc-700
+    sm:bg-neutral-700
+    md:bg-stone-700
+    lg:bg-slate-800
+    xl:bg-gray-800
+    1xl:bg-zinc-800
+    2xl:bg-neutral-800
+    3xl:bg-stone-800
+    4xl:bg-slate-800;
   }
 
   .grid-experience {

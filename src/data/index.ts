@@ -29,7 +29,6 @@ Hola, soy Analista y Desarrollador de Sistemas, Fullstack y tengo experiencia en
 
 export const skillData = [
   {
-    id: 0,
     percentaje: "40",
     color: "249 115 22",
     skillAlt: "",
@@ -38,7 +37,6 @@ export const skillData = [
     skillName: "HTML",
   },
   {
-    id: 1,
     percentaje: "40",
     color: "14 165 233",
     skillAlt: "",
@@ -47,7 +45,6 @@ export const skillData = [
     skillName: "CSS",
   },
   {
-    id: 2,
     percentaje: "30",
     color: "16 185 129",
     skillAlt: "",
@@ -56,7 +53,6 @@ export const skillData = [
     skillName: "Responsive",
   },
   {
-    id: 3,
     percentaje: "35",
     color: "253 224 71",
     skillAlt: "",
@@ -65,7 +61,6 @@ export const skillData = [
     skillName: "Javascript",
   },
   {
-    id: 4,
     percentaje: "35",
     color: "2 132 199",
     skillAlt: "",
@@ -74,7 +69,6 @@ export const skillData = [
     skillName: "Typescript",
   },
   {
-    id: 5,
     percentaje: "30",
     color: "120 113 108",
     skillAlt: "",
@@ -83,7 +77,6 @@ export const skillData = [
     skillName: "Linux",
   },
   {
-    id: 6,
     percentaje: "30",
     color: "161 161 170",
     skillAlt: "",
@@ -92,7 +85,6 @@ export const skillData = [
     skillName: "Terminal",
   },
   {
-    id: 7,
     percentaje: "15",
     color: "161 120 246",
     skillAlt: "",
@@ -101,7 +93,6 @@ export const skillData = [
     skillName: "AWS",
   },
   {
-    id: 8,
     percentaje: "20",
     color: "34 197 94",
     skillAlt: "",
@@ -110,7 +101,6 @@ export const skillData = [
     skillName: "SQL",
   },
   {
-    id: 9,
     percentaje: "30",
     color: "101 163 13",
     skillAlt: "",
@@ -118,8 +108,8 @@ export const skillData = [
     skillName: "NodeJS",
   },
   {
-    id: 10,
     percentaje: "40",
+    invert: true,
     color: "0 0 130",
     skillAlt: "",
     skillImg:
@@ -127,7 +117,6 @@ export const skillData = [
     skillName: "Express",
   },
   {
-    id: 11,
     percentaje: "10",
     color: "200 54 238",
     skillAlt: "",
@@ -135,7 +124,6 @@ export const skillData = [
     skillName: "JWT",
   },
   {
-    id: 12,
     percentaje: "25",
     color: "8 145 178",
     skillAlt: "",
@@ -144,7 +132,6 @@ export const skillData = [
     skillName: "Docker",
   },
   {
-    id: 13,
     percentaje: "35",
     color: "253 224 71",
     skillAlt: "",
@@ -152,7 +139,6 @@ export const skillData = [
     skillName: "Serverless",
   },
   {
-    id: 14,
     percentaje: "30",
     color: "34 211 238",
     skillAlt: "",
@@ -161,7 +147,6 @@ export const skillData = [
     skillName: "ReactJS",
   },
   {
-    id: 15,
     percentaje: "15",
     color: "244 63 94",
     skillAlt: "",
@@ -169,7 +154,6 @@ export const skillData = [
     skillName: "Angular",
   },
   {
-    id: 16,
     percentaje: "15",
     color: "244 63 94",
     skillAlt: "",
@@ -177,7 +161,6 @@ export const skillData = [
     skillName: "Figma",
   },
   {
-    id: 17,
     percentaje: "15",
     color: "244 63 94",
     skillAlt: "",
@@ -185,7 +168,6 @@ export const skillData = [
     skillName: "Git",
   },
   {
-    id: 18,
     percentaje: "15",
     color: "244 63 94",
     skillAlt: "",
@@ -194,7 +176,6 @@ export const skillData = [
     skillName: "Postman",
   },
   {
-    id: 19,
     percentaje: "15",
     color: "244 63 94",
     skillAlt: "",
