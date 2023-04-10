@@ -104,7 +104,8 @@ export const skillData = [
     percentaje: "30",
     color: "101 163 13",
     skillAlt: "",
-    skillImg: "https://nodejs.org/static/images/logo.svg",
+    skillImg:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
     skillName: "NodeJS",
   },
   {
