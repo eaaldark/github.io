@@ -7,14 +7,15 @@ import "./index.css";
 import Layout from "./component/global/Layout.tsx";
 import { PersistGate } from "redux-persist/integration/react";
 import {
-  HashRouter,
+  // HashRouter,
   RouterProvider,
+  createHashRouter,
   createBrowserRouter,
 } from "react-router-dom";
 import LayoutError from "./component/global/LayoutError.tsx";
 import App from "./pages/App.tsx";
 
-const router = createBrowserRouter([
+const routesArray = [
   {
     path: "",
     element: <Layout />,
@@ -26,15 +27,17 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+];
+
+// const browserRouter = createBrowserRouter(routesArray);
+const hashRouter = createHashRouter(routesArray);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <HashRouter>
-          <RouterProvider router={router} />
-        </HashRouter>
+        {/* <RouterProvider router={router} /> */}
+        <RouterProvider router={hashRouter} />
       </PersistGate>
     </Provider>
   </React.StrictMode>
