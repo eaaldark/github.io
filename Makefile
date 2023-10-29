@@ -1,22 +1,22 @@
-DOCKER_COMPOSE = docker-compose exec eaaldark
+DOCKER_COMPOSE = docker compose exec eaaldark
 
-sh:
-	${DOCKER_COMPOSE} /bin/sh
+bash:
+	${DOCKER_COMPOSE} /bin/bash
 
-run-install:
+install:
 	${DOCKER_COMPOSE} npm install
 
-run-start:
-	${DOCKER_COMPOSE} npm run start
+dev:
+	${DOCKER_COMPOSE} npm run dev
 
-run-build:
+build:
 	${DOCKER_COMPOSE} npm run build
 
-run-sbuild:
-	${DOCKER_COMPOSE} npx serve -s build -l 3100
+preview:
+	${DOCKER_COMPOSE} npm run preview
 
-run-deploy:
-	npx gh-pages -d build
+deploy:
+	npx gh-pages -d dist
 
 prettier:
 	${DOCKER_COMPOSE} npx prettier --write .

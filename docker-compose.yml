@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: eaaldark
     volumes:
-      - ./:/eaaldark.github.io
+      - ./:/app
     ports:
-      - 3100:3100
+      - 5173:5173
     tty: true
