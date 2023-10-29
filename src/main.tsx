@@ -6,12 +6,7 @@ import "./i18n.ts";
 import "./index.css";
 import Layout from "./component/global/Layout.tsx";
 import { PersistGate } from "redux-persist/integration/react";
-import {
-  // HashRouter,
-  RouterProvider,
-  createHashRouter,
-  // createBrowserRouter,
-} from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import LayoutError from "./component/global/LayoutError.tsx";
 import App from "./pages/App.tsx";
 
@@ -36,7 +31,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        {/* <RouterProvider router={router} /> */}
         <RouterProvider router={hashRouter} />
       </PersistGate>
     </Provider>
