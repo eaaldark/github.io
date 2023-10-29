@@ -32,9 +32,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        {/* <HashRouter> */}
-        <RouterProvider router={router} />
-        {/* </HashRouter> */}
+        <HashRouter>
+          <RouterProvider router={router} />
+        </HashRouter>
       </PersistGate>
     </Provider>
   </React.StrictMode>
