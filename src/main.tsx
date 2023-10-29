@@ -10,7 +10,7 @@ import {
   // HashRouter,
   RouterProvider,
   createHashRouter,
-  createBrowserRouter,
+  // createBrowserRouter,
 } from "react-router-dom";
 import LayoutError from "./component/global/LayoutError.tsx";
 import App from "./pages/App.tsx";
